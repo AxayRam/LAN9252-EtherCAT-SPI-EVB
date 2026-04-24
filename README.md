@@ -85,10 +85,6 @@ EtherCAT-PCB-EVB-LAN9252-SPI/
 ├── 3D_Models/
 │   └── PCB 3D Renderings & OBJ Files
 │
-├── Documentation/
-│   ├── DESIGN_GUIDE.md
-│   ├── CHANGELOG.md
-│   └── README.md
 │
 └── LICENSE
 ```
