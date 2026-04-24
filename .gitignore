@@ -1,0 +1,88 @@
+# .gitignore for LAN9252 EtherCAT PCB Project
+
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.vs/
+*.vcxproj.user
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Log files
+*.log
+
+# OS Specific
+.AppleDouble
+.LSOverride
+ehthumbs.db
+
+# CAD Software Backups
+*.bak.*
+*~.kicad_pcb
+*~.sch
+*.pro.user
+*.kicad_pro.user
+
+# Temporary project files
+*.zip
+!*.gerber.zip
+.lock
+
+# Documentation
+.htmlcov/
+htmlcov/
+
+# Archive files (optional - uncomment if not needed)
+# *.zip
+# *.rar
+# *.7z
+# *.tar.gz
+
+# Sensitive information
+*.env
+secrets.txt
+credentials.json
+
+# CI/CD
+.github/workflows/*.yml.bak
