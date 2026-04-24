@@ -69,6 +69,48 @@ The repository includes:
 
 ---
 
+# 📸 PCB Preview
+
+## 3D Front View
+
+<p align="center">
+  <img src="pcb_3d_front.png" alt="LAN9252 EtherCAT PCB 3D Front View" width="900">
+</p>
+
+---
+
+## PCB Top View
+
+<p align="center">
+  <img src="pcb_top_view.png" alt="LAN9252 EtherCAT PCB Top View" width="900">
+</p>
+
+---
+
+## PCB Bottom View
+
+<p align="center">
+  <img src="pcb_bottom_view.png" alt="LAN9252 EtherCAT PCB Bottom View" width="900">
+</p>
+
+---
+
+## Bottom Layer Routing
+
+<p align="center">
+  <img src="pcb_bottom_routing.png" alt="LAN9252 EtherCAT PCB Bottom Routing" width="900">
+</p>
+
+---
+
+## PCB Layout
+
+<p align="center">
+  <img src="pcb_layout.png" alt="LAN9252 EtherCAT PCB Layout" width="900">
+</p>
+
+---
+
 # 📂 Repository Structure
 
 ```text
@@ -76,6 +118,12 @@ LAN9252-EtherCAT-SPI-EVB/
 │
 ├── README.md
 ├── LICENSE
+│
+├── pcb_3d_front.png
+├── pcb_top_view.png
+├── pcb_bottom_view.png
+├── pcb_bottom_routing.png
+├── pcb_layout.png
 │
 ├── gerber/
 │   └── LAN9252_EtherCAT_Gerber_v1.0.zip
@@ -89,60 +137,10 @@ LAN9252-EtherCAT-SPI-EVB/
 ├── bom/
 │   └── BOM_LAN9252.csv
 │
-├── images/
-│   ├── pcb_3d_front.png
-│   ├── pcb_top_view.png
-│   ├── pcb_bottom_view.png
-│   ├── pcb_bottom_routing.png
-│   └── pcb_layout.png
-│
 └── docs/
     └── DESIGN_GUIDE.md
 ```
 
----
-
-# 📸 PCB Preview
-
-
-
-## 3D Front View
-
-<p align="center">
-  <img src="./images/pcb_3d_front.png" alt="LAN9252 EtherCAT PCB 3D Front View" width="900">
-</p>
-
----
-
-## PCB Top View
-
-<p align="center">
-  <img src="./images/pcb_top_view.png" alt="LAN9252 EtherCAT PCB Top View" width="900">
-</p>
-
----
-
-## PCB Bottom View
-
-<p align="center">
-  <img src="./images/pcb_bottom_view.png" alt="LAN9252 EtherCAT PCB Bottom View" width="900">
-</p>
-
----
-
-## Bottom Layer Routing
-
-<p align="center">
-  <img src="./images/pcb_bottom_routing.png" alt="LAN9252 EtherCAT PCB Bottom Routing" width="900">
-</p>
-
----
-
-## PCB Layout
-
-<p align="center">
-  <img src="./images/pcb_layout.png" alt="LAN9252 EtherCAT PCB Layout" width="900">
-</p>
 ---
 
 # 🧠 System Architecture
@@ -255,18 +253,6 @@ EtherCAT (Ethernet for Control Automation Technology) is a real-time industrial 
 | README.md | Project Overview |
 | DESIGN_GUIDE.md | Hardware Design Notes |
 | LICENSE | MIT License |
-
----
-
-# 🤝 Contributing
-
-Contributions and improvements are welcome.
-
-You can contribute by:
-- Improving documentation
-- Suggesting PCB optimizations
-- Reporting issues
-- Sharing integration examples
 
 ---
 
