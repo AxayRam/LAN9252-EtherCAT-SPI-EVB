@@ -5,13 +5,13 @@
 ![EtherCAT](https://img.shields.io/badge/Protocol-EtherCAT-blue?style=for-the-badge)
 ![LAN9252](https://img.shields.io/badge/Controller-LAN9252-green?style=for-the-badge)
 ![PCB Design](https://img.shields.io/badge/Hardware-PCB%20Design-orange?style=for-the-badge)
-![Industrial Automation](https://img.shields.io/badge/Application-Industrial%20Automation-darkgreen?style=for-the-badge)
+![Embedded Systems](https://img.shields.io/badge/Domain-Embedded%20Systems-darkgreen?style=for-the-badge)
+![EasyEDA](https://img.shields.io/badge/EDA-EasyEDA-red?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Manufacturing%20Ready-brightgreen?style=for-the-badge)
 
-### Professional EtherCAT Slave Evaluation Board Design
+### Professional EtherCAT Slave Evaluation Board PCB Design
 
-Industrial-grade multi-layer PCB evaluation board based on the Microchip LAN9252 EtherCAT controller with SPI interface support.
+Industrial EtherCAT evaluation board designed using the Microchip LAN9252 EtherCAT controller with SPI interface support.
 
 </div>
 
@@ -19,33 +19,36 @@ Industrial-grade multi-layer PCB evaluation board based on the Microchip LAN9252
 
 # 📌 Overview
 
-This repository contains complete hardware design resources for a professional EtherCAT Slave Evaluation Board built around the **Microchip LAN9252 EtherCAT Controller**.
+This repository contains the complete PCB design files and hardware documentation for a custom EtherCAT Slave Evaluation Board based on the **Microchip LAN9252 EtherCAT Controller**.
 
-The project is designed for:
-
-- Industrial Automation Systems
-- Real-Time Embedded Applications
-- EtherCAT Network Development
-- Industrial IoT Platforms
-- Embedded Hardware Prototyping
+The project was designed for:
+- Embedded Systems Development
+- Industrial Communication Learning
+- EtherCAT Protocol Exploration
+- PCB Design Practice
+- Hardware Prototyping
 - Educational & Research Purposes
 
-This repository includes manufacturing-ready PCB design files, schematics, bill of materials, PCB visualizations, and hardware documentation.
+The repository includes:
+- PCB design files
+- Gerber files
+- PCB layout files
+- Bill of Materials (BOM)
+- 3D PCB renders
+- Hardware documentation
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-- EtherCAT Slave Communication Support
 - LAN9252 EtherCAT Controller
-- SPI Host Interface
+- SPI Communication Interface
 - Multi-Layer PCB Design
-- Industrial Hardware Architecture
-- Optimized Signal Routing
-- Manufacturing-Ready Gerber Files
-- Complete Bill of Materials (BOM)
-- PCB 3D Models & Renderings
-- Professional Documentation
+- RJ45 Ethernet Connectivity
+- Optimized PCB Routing
+- EasyEDA PCB Design
+- PCB 3D Visualization
+- Embedded Hardware Development
 
 ---
 
@@ -56,13 +59,12 @@ This repository includes manufacturing-ready PCB design files, schematics, bill 
 | Main Controller | Microchip LAN9252 |
 | Communication Protocol | EtherCAT |
 | Host Interface | SPI |
+| PCB Design Tool | EasyEDA |
 | PCB Type | Multi-Layer PCB |
-| PCB Thickness | 1.6mm |
-| Operating Temperature | -40°C to +85°C |
-| Input Voltage | 5V / 12V |
-| Regulated Voltage | 3.3V |
 | Ethernet Interface | RJ45 |
-| Design Status | Manufacturing Ready |
+| Regulated Voltage | 3.3V |
+| Input Voltage | 5V / 12V |
+| Project Type | PCB Design Project |
 | License | MIT |
 
 ---
@@ -82,49 +84,62 @@ LAN9252-EtherCAT-SPI-EVB/
 │   └── LAN9252_Schematic.pdf
 │
 ├── pcb_layout/
-│   └── LAN9252_PCB_Layout.pdf
+│   └── PCB_Layout.pdf
 │
 ├── bom/
 │   └── BOM_LAN9252.csv
 │
 ├── images/
-│   ├── pcb_top.png
-│   ├── pcb_bottom.png
-│   ├── pcb_3d.png
-│   └── schematic_preview.png
-│
-├── 3d_models/
-│   └── pcb_model.obj
+│   ├── pcb_3d_front.png
+│   ├── pcb_top_view.png
+│   ├── pcb_bottom_view.png
+│   ├── pcb_bottom_routing.png
+│   └── pcb_layout.png
 │
 └── docs/
-    ├── DESIGN_GUIDE.md
-    └── CHANGELOG.md
+    └── DESIGN_GUIDE.md
 ```
 
 ---
 
 # 📸 PCB Preview
 
-## Top Layer PCB
+## 3D Front View
 
 <p align="center">
-  <img src="images/pcb_top.png" width="900"/>
+  <img src="images/pcb_3d_front.png" width="900"/>
 </p>
 
 ---
 
-## Bottom Layer PCB
+## PCB Top View
 
 <p align="center">
-  <img src="images/pcb_bottom.png" width="900"/>
+  <img src="images/pcb_top_view.png" width="900"/>
 </p>
 
 ---
 
-## 3D PCB Render
+## PCB Bottom View
 
 <p align="center">
-  <img src="images/pcb_3d.png" width="900"/>
+  <img src="images/pcb_bottom_view.png" width="900"/>
+</p>
+
+---
+
+## Bottom Layer Routing
+
+<p align="center">
+  <img src="images/pcb_bottom_routing.png" width="900"/>
+</p>
+
+---
+
+## PCB Layout
+
+<p align="center">
+  <img src="images/pcb_layout.png" width="900"/>
 </p>
 
 ---
@@ -149,22 +164,21 @@ LAN9252-EtherCAT-SPI-EVB/
 
 ---
 
-# 📦 Included Design Files
+# 📦 Included Files
 
-## PCB Manufacturing Files
+## PCB Design Files
 - Gerber Files
 - Drill Files
-- PCB Production Files
+- PCB Layout Files
 
 ## Documentation
-- Schematic PDF
 - PCB Layout PDF
 - Bill of Materials (CSV)
 - Design Documentation
 
 ## Visualization
-- PCB 3D Renderings
-- Mechanical Models
+- PCB 3D Renders
+- PCB Layout Images
 
 ---
 
@@ -178,63 +192,46 @@ git clone https://github.com/AxayRam/LAN9252-EtherCAT-SPI-EVB.git
 
 ---
 
-# 🏭 PCB Manufacturing
-
-This design is prepared for professional PCB fabrication and assembly.
-
-## Recommended PCB Parameters
-
-| Parameter | Recommendation |
-|---|---|
-| PCB Material | FR4 |
-| Layer Count | 4-Layer |
-| Thickness | 1.6mm |
-| Surface Finish | ENIG |
-| Copper Weight | 1oz |
-| Solder Mask | Green / Black |
-
----
-
 # 🔌 Hardware Integration
 
-- Connect the SPI interface to an external MCU
-- Connect Ethernet through RJ45 connector
-- Apply appropriate regulated power supply
-- Verify SPI communication parameters
+- Connect external MCU through SPI interface
+- Connect Ethernet cable to RJ45 connector
+- Use appropriate power supply
 - Configure EtherCAT firmware stack
+- Test communication using EtherCAT master tools
 
 ---
 
 # 🌐 EtherCAT Technology
 
-EtherCAT (Ethernet for Control Automation Technology) is a high-performance industrial Ethernet protocol designed for deterministic real-time communication.
+EtherCAT (Ethernet for Control Automation Technology) is a real-time industrial Ethernet communication protocol widely used in industrial automation and embedded systems.
 
 ## Advantages
 
-- Ultra-Low Latency
-- Deterministic Communication
-- High-Speed Ethernet Performance
+- Real-Time Communication
+- Low Latency
+- Deterministic Performance
 - Industrial Reliability
-- Real-Time Data Exchange
+- High-Speed Data Transfer
 
 ---
 
-# 🛠️ Design Highlights
+# 🛠️ PCB Design Highlights
 
-## Signal Integrity
-- Controlled impedance routing
-- Optimized differential pair routing
-- Reduced EMI/RFI interference
+## Signal Routing
+- Optimized routing structure
+- Organized component placement
+- Differential signal considerations
 
 ## Power Design
-- Stable 3.3V regulation
-- Decoupling capacitor network
-- Industrial-grade filtering
+- Stable voltage regulation
+- Decoupling capacitor placement
+- Power filtering network
 
 ## PCB Engineering
-- Multi-layer stack-up
+- Multi-layer PCB architecture
 - Ground plane optimization
-- Thermal-aware component placement
+- Compact hardware layout
 
 ---
 
@@ -244,9 +241,9 @@ EtherCAT (Ethernet for Control Automation Technology) is a high-performance indu
 - RJ45 Ethernet Connector
 - SPI Interface Header
 - Crystal Oscillator
-- Power Regulation Circuit
+- Voltage Regulation Circuit
 - Passive Components
-- Protection Circuits
+- Protection Components
 
 ---
 
@@ -255,23 +252,8 @@ EtherCAT (Ethernet for Control Automation Technology) is a high-performance indu
 | File | Description |
 |---|---|
 | README.md | Project Overview |
-| DESIGN_GUIDE.md | Hardware Design Documentation |
-| CHANGELOG.md | Version History |
+| DESIGN_GUIDE.md | Hardware Design Notes |
 | LICENSE | MIT License |
-
----
-
-# 📜 License
-
-This project is released under the MIT License.
-
-You are free to:
-- Use commercially
-- Modify the design
-- Distribute the files
-- Use privately
-
-Please include the original license and copyright notice.
 
 ---
 
@@ -280,10 +262,24 @@ Please include the original license and copyright notice.
 Contributions and improvements are welcome.
 
 You can contribute by:
-- Reporting issues
 - Improving documentation
-- Suggesting hardware optimizations
+- Suggesting PCB optimizations
+- Reporting issues
 - Sharing integration examples
+
+---
+
+# 📜 License
+
+This project is licensed under the MIT License.
+
+You are free to:
+- Use commercially
+- Modify the design
+- Share the files
+- Use for educational purposes
+
+Please include the original license and copyright notice.
 
 ---
 
@@ -298,29 +294,28 @@ Embedded Systems | PCB Design | Industrial Communication | EtherCAT Development
 # ⭐ Support
 
 If you found this project useful:
-
 - Star the repository
 - Fork the project
 - Share with others
-- Contribute improvements
 
 ---
 
-# 📅 Version Information
+# 📅 Project Information
 
 | Item | Value |
 |---|---|
+| Project | LAN9252 EtherCAT SPI EVB |
+| PCB Tool | EasyEDA |
+| Project Type | PCB Design |
 | Version | v1.0 |
-| Release Type | Initial Manufacturing Release |
-| Status | Manufacturing Ready |
 | Last Updated | April 2026 |
 
 ---
 
 <div align="center">
 
-### Industrial Embedded Hardware Design Project
+### Embedded Hardware & PCB Design Project
 
-Professional EtherCAT Slave Evaluation Board using Microchip LAN9252
+EtherCAT Evaluation Board using Microchip LAN9252
 
 </div>
