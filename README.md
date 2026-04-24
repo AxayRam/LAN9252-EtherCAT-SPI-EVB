@@ -104,10 +104,12 @@ LAN9252-EtherCAT-SPI-EVB/
 
 # 📸 PCB Preview
 
+
+
 ## 3D Front View
 
 <p align="center">
-  <img src="images/pcb_3d_front.png" width="900"/>
+  <img src="./images/pcb_3d_front.png" alt="LAN9252 EtherCAT PCB 3D Front View" width="900">
 </p>
 
 ---
@@ -115,7 +117,7 @@ LAN9252-EtherCAT-SPI-EVB/
 ## PCB Top View
 
 <p align="center">
-  <img src="images/pcb_top_view.png" width="900"/>
+  <img src="./images/pcb_top_view.png" alt="LAN9252 EtherCAT PCB Top View" width="900">
 </p>
 
 ---
@@ -123,7 +125,7 @@ LAN9252-EtherCAT-SPI-EVB/
 ## PCB Bottom View
 
 <p align="center">
-  <img src="images/pcb_bottom_view.png" width="900"/>
+  <img src="./images/pcb_bottom_view.png" alt="LAN9252 EtherCAT PCB Bottom View" width="900">
 </p>
 
 ---
@@ -131,7 +133,7 @@ LAN9252-EtherCAT-SPI-EVB/
 ## Bottom Layer Routing
 
 <p align="center">
-  <img src="images/pcb_bottom_routing.png" width="900"/>
+  <img src="./images/pcb_bottom_routing.png" alt="LAN9252 EtherCAT PCB Bottom Routing" width="900">
 </p>
 
 ---
@@ -139,9 +141,8 @@ LAN9252-EtherCAT-SPI-EVB/
 ## PCB Layout
 
 <p align="center">
-  <img src="images/pcb_layout.png" width="900"/>
+  <img src="./images/pcb_layout.png" alt="LAN9252 EtherCAT PCB Layout" width="900">
 </p>
-
 ---
 
 # 🧠 System Architecture
