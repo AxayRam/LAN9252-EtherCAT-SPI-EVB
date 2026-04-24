@@ -172,19 +172,6 @@ EtherCAT (Ethernet for Control Automation Technology) is a high-performance indu
 
 ---
 
-# 📸 PCB Preview
-
-## Top View
-(Add top-view PCB image here)
-
-## Bottom View
-(Add bottom-view PCB image here)
-
-## 3D Render
-(Add 3D PCB render here)
-
----
-
 # 📋 Bill of Materials
 
 Main components used in the design:
