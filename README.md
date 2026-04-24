@@ -69,47 +69,6 @@ The repository includes:
 
 ---
 
-# 📸 PCB Preview
-
-## 3D Front View
-
-<p align="center">
-  <img src="pcb_3d_front.png" alt="LAN9252 EtherCAT PCB 3D Front View" width="900">
-</p>
-
----
-
-## PCB Top View
-
-<p align="center">
-  <img src="pcb_top_view.png" alt="LAN9252 EtherCAT PCB Top View" width="900">
-</p>
-
----
-
-## PCB Bottom View
-
-<p align="center">
-  <img src="pcb_bottom_view.png" alt="LAN9252 EtherCAT PCB Bottom View" width="900">
-</p>
-
----
-
-## Bottom Layer Routing
-
-<p align="center">
-  <img src="pcb_bottom_routing.png" alt="LAN9252 EtherCAT PCB Bottom Routing" width="900">
-</p>
-
----
-
-## PCB Layout
-
-<p align="center">
-  <img src="pcb_layout.png" alt="LAN9252 EtherCAT PCB Layout" width="900">
-</p>
-
----
 
 # 📂 Repository Structure
 
